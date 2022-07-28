@@ -21,6 +21,7 @@ var rollbar = new Rollbar ({
 })
 
 rollbar.log('Hello world!')
+rollbar.log('Rollbar testing')
 
 const port = process.env.PORT || 4006
 
